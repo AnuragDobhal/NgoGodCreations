@@ -1,0 +1,116 @@
+
+
+.silowp-showcases {
+	background-image: radial-gradient(#313333 5%, rgba(42, 43, 43, 0.85) 80%, rgb(53, 54, 54) 95%),url(https://i.pinimg.com/564x/b0/0d/2f/b00d2f5f03d876f6e83ce425a0a3fce1.jpg);
+	background-repeat: no-repeat,
+		repeat-x;
+	background-position: center center,
+		center center;
+}
+.silowp-showcases .row {
+	min-height: 350px;
+  text-align: center;
+}
+.silowp-showcases .row .col-xs-12 {
+	position: initial;
+}
+.silowp-showcases .entry-title {
+	color: #fff;
+	margin-bottom: 20px;
+}
+/* .silowp-showcases a.more-link {
+	color: #e8b935 !important;
+	background-color: #fff;
+	position: initial;
+	font-size: 16px;
+} */
+.more-link{
+    background-color: #4c898f;
+    height: 50px;
+    width: 120px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.more-link:hover{
+    background-color: #2cc1cc;
+    color: #000000 !important;
+}
+.silowp-showcases a.more-link:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+/* Inherited Styles from SiloCreativo.com CSS */
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-xs-middle {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+.col-xs-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/* h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    font-weight: 600;
+    line-height: 1.15;
+    word-wrap: break-word;
+    margin: 1em 0 0.5em;
+    letter-spacing: -0.02em;
+} */
+.entry-title {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    position: relative;
+    word-wrap: break-word;
+}
+/* h1 {
+    font-size: 47px;
+} */
+a.more-link, .st-button, .visit-theme, .entry-content a.visit-theme, .entry-summary a.visit-theme, button, input[type="submit"], input[type="button"], input[type="reset"], .comment-navigation a, #page .jetpack-recipe-meta li.jetpack-recipe-print a, #main #infinite-handle span {
+    background-color: #2cc1cc;
+    display: inline-block;
+    padding: 2px 10px;
+    color: #fff !important;
+    text-decoration: none;
+    font: 400 14px 'Work Sans', Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    border: none !important;
+    position: relative;
+    border-radius: 4px;
+    -webkit-transition: .1s all ease-in-out;
+    -moz-transition: .1s all ease-in-out;
+    -o-transition: .1s all ease-in-out;
+    transition: .1s all ease-in-out;
+}

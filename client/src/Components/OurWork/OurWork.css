@@ -1,0 +1,152 @@
+
+
+.container_work {
+  margin: 4rem;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  margin-bottom: 1.6%;
+  line-height: 1.4;
+  font-family: sans-serif;
+  overflow: hidden;
+  z-index: 0;
+  cursor: pointer;
+  background: #fafafa;
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+              -0.5em -0.5em 1em #ffffff;
+  border-radius: 10px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+
+}
+.blog-card:hover{
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+
+.blog-card .description {
+padding: 2rem;
+text-align: center;
+background: #fafafa;
+box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+            -0.5em -0.5em 1em #ffffff;
+border-radius: 10px;
+
+}
+
+.blog-card .description h1,
+.blog-card .description .auth {
+  font-family: Poppins, sans-serif;
+  text-align: left;
+}
+
+.blog-card .description h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.first{
+  color: rgb(32, 29, 207) !important;
+}
+.second{
+  color: green;
+}
+.third{
+  color: #e21a13;
+}
+.fourth{
+  color: #720ac7;
+}
+.fifth{
+  color: #cf16c6;
+}
+.sixth{
+  color: rgb(230, 112, 16);
+}
+.blog-card .description .auth {
+  font-size: 0.90rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-top: 15px;
+}
+
+ .read-more {
+  text-align: right;
+  background-color: #2cc1cc;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 0.5s;
+  color: rgb(0, 0, 0) !important;
+  font-size: 0.87rem;
+  padding: 5px;
+}
+.read-more:hover{
+  background-color: #4f878b;
+  color: #ffffff !important;
+}
+.blog-card p {
+  position: relative;
+  margin: 1rem 0 0;
+  color: #121f1f;
+  text-align: left;
+  font-size: 1rem !important;
+  font-weight: 800;
+  
+}
+@media only screen and (max-width: 600px) {
+  /* .blog-card p {
+    font-size: 0.75rem !important;
+  } */
+
+  .blog-card .description {
+
+  }
+  .blog-card {
+  
+  }
+}
+
+
+.blog-card p:first-of-type {
+  margin-top:1.55rem;
+}
+
+.our_work {
+  text-decoration: none; 
+  position: relative; 
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 50px;
+}   
+
+.our_work:after {
+   position: absolute;
+   content: '';
+   height: 2px;
+   bottom: -4px; 
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   width: 30%;
+   background:#4c898f;
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+}
+ .our_work:hover:after {
+     width: 40%;
+     background: #2cc1cc;
+}

@@ -1,0 +1,188 @@
+
+
+.silowp-showcase {
+	background-image: radial-gradient(#313333 6%, rgba(64, 68, 68, 0.85) 80%, rgb(94, 94, 94) 95%),url(../Images/edu.jpg);
+	background-repeat: no-repeat,
+		repeat-x;
+	background-position: center center,
+		center center;
+}
+.silowp-showcase .row {
+	min-height: 350px;
+  text-align: center;
+}
+.silowp-showcase .row .col-xs-12 {
+	position: initial;
+}
+.silowp-showcase .entry-title {
+	color: #fff;
+	margin-bottom: 20px;
+}
+/* .silowp-showcase a.more-link {
+	color: #e8b935 !important;
+	background-color: #fff;
+	position: initial;
+	font-size: 16px;
+} */
+.more-link{
+    background-color: #4c898f;
+    height: 50px;
+    width: 120px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.more-link:hover{
+    background-color: #2cc1cc;
+    color: #000000 !important;
+}
+.silowp-showcase a.more-link:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+/* Inherited Styles from SiloCreativo.com CSS */
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container_donation {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-xs-middle {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+.col-xs-12 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/* h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    font-weight: 600;
+    line-height: 1.15;
+    word-wrap: break-word;
+    margin: 1em 0 0.5em;
+    letter-spacing: -0.02em;
+} */
+.entry-title {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    position: relative;
+    word-wrap: break-word;
+}
+/* h1 {
+    font-size: 47px;
+} */
+a.more-link, .st-button, .visit-theme, .entry-content a.visit-theme, .entry-summary a.visit-theme, button, input[type="submit"], input[type="button"], input[type="reset"], .comment-navigation a, #page .jetpack-recipe-meta li.jetpack-recipe-print a, #main #infinite-handle span {
+    background-color: #2cc1cc;
+    display: inline-block;
+    padding: 2px 10px;
+    color: #fff !important;
+    text-decoration: none;
+    font: 400 14px 'Work Sans', Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    border: none !important;
+    position: relative;
+    border-radius: 4px;
+    -webkit-transition: .1s all ease-in-out;
+    -moz-transition: .1s all ease-in-out;
+    -o-transition: .1s all ease-in-out;
+    transition: .1s all ease-in-out;
+}
+
+
+
+
+.all_details{
+    margin-top: 25px;
+}
+.info{ 
+    color: rgb(27, 180, 201);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.detail{
+    padding: 7px;
+    text-transform: uppercase;
+    color: rgb(38, 38, 39);
+    
+}
+.bank_title{
+    color: rgb(47, 55, 58);
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.line_bank{
+    color: rgb(20, 214, 240);
+    height: 1px;
+ 
+}
+
+.bank_details {
+    /* columns: 25ch 3; */
+    gap: 40px;
+    margin-bottom: 40px;
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .bank_info {
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px 20px;
+    break-inside: avoid;
+  
+  }  
+  
+   @media (max-width: 950px) {  
+    .bank_info {
+        font-size: 17px;
+        border: 1px solid;
+        padding: 10px 20px;
+        break-inside: avoid;
+    
+    }
+    .bank_details {
+        /* columns: 25ch 3; */
+        margin-bottom: 40px;
+        height:300px;
+      }
+      .info{ 
+        color: rgb(27, 180, 201);
+        font-size:20px;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+  }
+  
